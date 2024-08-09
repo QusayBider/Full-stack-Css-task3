@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 1500px;
+}
+.Contianer{
+    width: 80%;
+    margin: auto;
+    
+}
+.navbar{
+    background-color: #646262;
+    position:sticky;
+    top: 0;
+}
+.navbar .Contianer{
+ display: flex;
+ align-items: center;
+
+}
+.logo{
+    width: 30%;
+}
+img{
+    width: 300px;
+}
+.List{
+    flex-grow: 1;
+    display: flex;
+    gap: 25px;
+    justify-content: end;
+}
+.List a{
+    font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.page{
+    height: 1250px;
+    background-color: rgb(163, 158, 158);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.page .information{
+    background-color: rgb(87, 85, 90);
+    padding: 15px;    
+}
